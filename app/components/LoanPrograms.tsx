@@ -13,8 +13,8 @@ import Link from "next/link";
 
 const loanCategories = [
   {
-    label: "Conventional Fixed Rate Mortgages (FRM)",
-    slug: "/fixed-rate-frm-loans",
+    label: "Refinance or cash-out refinance loans",
+    slug: "/refinance",
     icon: Home,
   },
   {

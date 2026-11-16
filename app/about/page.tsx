@@ -16,9 +16,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
-
 export const metadata = { title: "About Us | Advanced Mortgage LLC" };
-
 const teamMembers = [
   {
     name: "Charles M. Bucklin",
@@ -28,7 +26,7 @@ const teamMembers = [
     phone2: "941.223.2125",
     nmls: "NMLS ID: 460665",
     image: "/img/c.png",
-    bio: "Charles M. Bucklin was born in Washington DC, raised in Rockville, MD, and has been a member of the Sarasota community since 2020. As an active member in his community, he loves to help people with their financial goals. Being President of Advanced Mortgage LLC has placed him in the position of doing just that. Starting in the mortgage business in 2005 has made Mr. Bucklin extremely knowledgeable in all areas and programs in the mortgage business. Since opening Advanced Mortgage LLC, Mr. Bucklin has earned many awards and is now licensed in PA, CO, DC, FL, MD, VA, and WV. Mr. Bucklin enjoys spending time with his family, travelling, and being outdoors.",
+    bio: "Charles M. Bucklin was born in Washington DC, raised in Rockville, MD, and has been a member of the Sarasota community since 2020. As an active member in his community, he loves to help people with their financial goals. Being President of Advanced Mortgage LLC has placed him in the position of doing just that. Starting in the mortgage business in 2005 has made Mr. Bucklin extremely knowledgeable in all areas and programs in the mortgage business. Since opening Advanced Mortgage LLC, Mr. Bucklin has earned many awards and is now licensed in MD, VA, DC, PA, DE, FL, & WV. Mr. Bucklin enjoys spending time with his family, travelling, and being outdoors.",
   },
   {
     name: "Ernest M. Jones III",
@@ -122,7 +120,7 @@ export default function AboutPage() {
               Licensed States
             </h3>
             <div className="mt-4 grid grid-cols-3 gap-3">
-              {["PA", "CO", "DC", "FL", "MD", "VA", "WV"].map((state) => (
+              {["PA", "CO", "DC", "FL", "MD", "VA", "WV","DE"].map((state) => (
                 <span
                   key={state}
                   className="rounded-lg bg-primary/10 px-3 py-2 text-center font-semibold text-primary"

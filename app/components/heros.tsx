@@ -27,7 +27,7 @@ function Heros() {
               you through every step of the journey, offering personalized
               solutions and expert advice tailored to current trends.{" "}
               <span className="text-[#6aff0d]">
-                State Licenses: MD, VA, DC, PA, DC, FL, & WV
+                State Licenses: MD, VA, DC, PA, DE, FL, & WV
               </span>
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-6">
@@ -53,9 +53,9 @@ function Heros() {
           </div>
 
           {/* Right image */}
-          <div className="relative w-full max-w-sm mx-auto aspect-[3/2] overflow-hidden rounded-2xl shadow-2xl lg:mx-0 lg:ml-auto lg:max-w-md">
+          <div className="relative w-full max-w-sm mx-auto bg-white aspect-[3/2] overflow-hidden rounded-2xl shadow-2xl lg:mx-0 lg:ml-auto lg:max-w-md">
             <Image
-              src="/img/fi.png"
+              src="/img/AML.png"
               alt="Advanced Mortgage LLC"
               fill
               sizes="(max-width: 1024px) 100vw, 28rem"
